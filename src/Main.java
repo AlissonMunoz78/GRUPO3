@@ -55,6 +55,10 @@ public class Main {
         //Calcular la velocidad necesaria
         double velocidadRequerida = golpeo.calcularVelocidad();
 
+        // Mostrar los valores ingresados y el resultado
+        System.out.printf("Distancia: %.2f metros%n", golpeo.getDistancia()"metros.");
+        System.out.printf("Ángulo: %.2f grados%n", golpeo.getAngulo())"grados";
+        System.out.printf("Tiempo: %.2f segundos%n", golpeo.getTiempo()), "segundos";
         //Mostrar resultado con 2 decimales usando printf
         System.out.printf("La velocidad necesaria para que el balón entre en la portería es: %.2f", velocidadRequerida, "m/s.");
 
