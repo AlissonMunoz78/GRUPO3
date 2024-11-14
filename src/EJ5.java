@@ -1,7 +1,9 @@
+//Definir la clase
 public class EJ5 {
-    private double distancia; // en metros
-    private double angulo; // en grados
-    private double tiempo; // en segundos
+    //Definir los atributos
+    private double distancia;           //distancia en metros
+    private double angulo;              //angulo en grados
+    private double tiempo;              //tiempo en segundos
 
     // Constructor vacío
     public EJ5() {
@@ -39,12 +41,12 @@ public class EJ5 {
         this.tiempo = tiempo;
     }
 
-    // Método para calcular la velocidad inicial requerida
+    //Método personalizado para calcular la velocidad inicial requerida
     public double calcularVelocidad() {
-        final double g = 9.81; // Gravedad en m/s^2
-        double anguloEnRadianes = Math.toRadians(angulo); // Convertimos el ángulo a radianes
+        final double g = 9.81;    // Gravedad en m/s^2, con valor constante 9,81
+        double anguloEnRadianes = Math.toRadians(angulo);    //Transformar el ángulo a radianes
 
-        // Calculamos la velocidad inicial usando la fórmula V0 = sqrt((R * g) / sin(2 * θ))
+        //Calcular la velocidad inicial usando la fórmula V0 = sqrt((R * g) / sin(2 * θ))
         double velocidad = Math.sqrt((distancia * g) / Math.sin(2 * anguloEnRadianes));
 
         return velocidad;
