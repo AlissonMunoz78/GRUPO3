@@ -1,15 +1,31 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Crear una instancia de la clase EJ5 usando el constructor vacío
+        EJ5 golpeo = new EJ5();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Usar Scanner para ingresar los valores de los atributos
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la distancia a la portería (en metros): ");
+        double distancia = scanner.nextDouble();
+        golpeo.setDistancia(distancia);
+
+        System.out.print("Ingrese el ángulo de lanzamiento (en grados): ");
+        double angulo = scanner.nextDouble();
+        golpeo.setAngulo(angulo);
+
+        System.out.print("Ingrese el tiempo para que el balón llegue (en segundos): ");
+        double tiempo = scanner.nextDouble();
+        golpeo.setTiempo(tiempo);
+
+        // Calcular la velocidad necesaria
+        double velocidadRequerida = golpeo.calcularVelocidad();
+
+        // Mostrar resultado con 2 decimales usando printf
+        System.out.printf("La velocidad necesaria para que el balón entre en la portería es: %.2f m/s%n", velocidadRequerida);
+
+        scanner.close();
     }
 }
