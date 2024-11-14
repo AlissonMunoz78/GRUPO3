@@ -50,7 +50,7 @@ En este caso, el import java.util.InputMismatchException captura cuando el usuar
 
 Finalmente, se hace una prueba ingresando datos correctos.
 
-![Captura de Pantalla 2024-11-13 a la(s) 23 21 05](https://github.com/user-attachments/assets/1d502935-8dbb-4605-83b1-cd24ebb3b054)
+![Captura de Pantalla 2024-11-13 a la(s) 23 23 06](https://github.com/user-attachments/assets/a5e777c0-c515-4e1a-8b7c-eeeca4e56732)
 
 
 ![Captura de Pantalla 2024-11-13 a la(s) 23 01 48](https://github.com/user-attachments/assets/3a9b0668-4ef0-4d7c-9ffe-ea859af10d45)
