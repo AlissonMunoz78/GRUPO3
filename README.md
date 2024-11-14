@@ -1,5 +1,8 @@
 Codigo
 
+Primero se define la clase, luego los atributos y el metodo constructor.
+
+![Captura de Pantalla 2024-11-13 a la(s) 23 02 22](https://github.com/user-attachments/assets/2e8f7648-93c9-472a-ab46-d8b6a581f9b1)
 
 
 Prueba funcionamiento
@@ -13,4 +16,7 @@ En este caso, el import java.util.InputMismatchException captura cuando el usuar
 ![Captura de Pantalla 2024-11-13 a la(s) 22 29 39](https://github.com/user-attachments/assets/9e8a0710-42f5-4a4c-ac90-d500fbad4066)
 ![Captura de Pantalla 2024-11-13 a la(s) 22 37 32](https://github.com/user-attachments/assets/9950b527-1e56-4fb0-b4f8-56c3ee4c609d)
 Finalmente, se hace una prueba ingresando datos correctos.
-![Captura de Pantalla 2024-11-13 a la(s) 22 29 58](https://github.com/user-attachments/assets/4c326e64-f5e0-4c4b-98be-8e55e2d16836)
+
+
+![Captura de Pantalla 2024-11-13 a la(s) 23 01 48](https://github.com/user-attachments/assets/3a9b0668-4ef0-4d7c-9ffe-ea859af10d45)
+
