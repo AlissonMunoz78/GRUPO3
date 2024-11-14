@@ -4,6 +4,18 @@ Primero se define la clase, luego los atributos y el metodo constructor.
 
 ![Captura de Pantalla 2024-11-13 a la(s) 23 02 22](https://github.com/user-attachments/assets/2e8f7648-93c9-472a-ab46-d8b6a581f9b1)
 
+Luego se añaden los getters y los setters para cada atributo.
+
+![Captura de Pantalla 2024-11-13 a la(s) 22 57 05](https://github.com/user-attachments/assets/dd31f84c-b75d-4d38-bc20-4b6e660d76b7)
+
+![Captura de Pantalla 2024-11-13 a la(s) 23 03 55](https://github.com/user-attachments/assets/25bc204b-def5-414f-8c1f-5e4f5abc2f0c)
+
+![Captura de Pantalla 2024-11-13 a la(s) 23 04 02](https://github.com/user-attachments/assets/c40e84ab-e763-4356-9066-6b3a535f3b20)
+
+
+Luego se define un metodo personalizado para calcular la velocidad inicial.
+![Captura de Pantalla 2024-11-13 a la(s) 23 04 15](https://github.com/user-attachments/assets/eed78db2-7998-4b59-b91f-303ff5b089df)
+
 
 Prueba funcionamiento
 
