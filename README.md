@@ -21,6 +21,7 @@ Para la clase principal Main se importa java.util.scanner y java.util.InputMisma
 ![Captura de Pantalla 2024-11-13 a la(s) 23 15 37](https://github.com/user-attachments/assets/57feca10-fe6d-4e16-8b30-3022944e21e5)
 
 Se crean las instancias y se procede a hacer el ingreso de los datos usando scanner. Se usa el try y el catch para las excepciones, en caso de ingresar valores incorrectos.
+
 ![Captura de Pantalla 2024-11-13 a la(s) 23 16 35](https://github.com/user-attachments/assets/c44a4edf-45a3-407e-aa84-c9f6eddf1420)
 
 
